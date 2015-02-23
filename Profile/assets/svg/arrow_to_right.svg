@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Arrow_to_Right</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Site" sketch:type="MSArtboardGroup" transform="translate(-903.000000, -224.000000)" fill="#FFFFFF">
+            <path d="M960.728129,268.100298 L938.100298,290.728129 C937.315541,291.512887 936.053127,291.508971 935.272078,290.727922 C934.485584,289.941428 934.490937,288.680636 935.271871,287.899702 L956.671573,266.5 L935.271871,245.100298 C934.487113,244.315541 934.491029,243.053127 935.272078,242.272078 C936.058572,241.485584 937.319364,241.490937 938.100298,242.271871 L960.728129,264.899702 C961.16689,265.338463 961.666565,265.823609 961.666565,266.5 C961.666565,267.149536 961.167529,267.660898 960.728129,268.100298 Z" id="Arrow_to_Right" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

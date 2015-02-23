@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Manish Kogundi⎪UI Developer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="My name is Manish Kogundi. I try to design usable, beautiful and sophisticated stuff on the web & on mobile."/>
+		<meta name="keywords" content="manish, kogundi, designer, ui, ux, interface, website, mobile, app, ios, redesign"/>
+		<meta name="author" content="Manish Kogundi"/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/scroll.css">
+		<link rel="shortcut icon" href="assets/bitmap/favicon.ico" type="image/x-icon">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Titillium+Web:300' rel='stylesheet' type='text/css'>	
+	</head>
+	<body>
+	
+		<div class="navbar anim_page_transition">
+			<div class="navbar_bar anim_page_transition"></div>
+			<a href="#" class="navbar_name anim_page_transition">Manish Kogundi</a>
+			<p class="navbar_title anim_page_transition">UI/UX Developer.</p>
+			<a href="mailto:karan.manu17@gmail.com" class="navbar_contact">Contact</a>
+			<ul class="navbar_menu anim_page_transition">
+				<li><a href="#" class="navbar_menu_item" title="Coming Soon">Timeline</a></li>
+				<li><a href="#" class="navbar_menu_item" title="Coming Soon">Photoblog</a></li>
+				<li><a class="navbar_menu_item_selected">Portfolio</a></li>
+			</ul>
+			<div class="navbar_links_container anim_page_transition">
+				<ul class="navbar_links">
+					<li><a href="#" class="navbar_link_twitter" target="_blank"></a></li>
+					<li><a href="#" class="navbar_link_linkedin" target="_blank"></a></li>
+					<li><a href="#" class="navbar_link_facebook" target="_blank"></a></li>
+				</ul>
+			</div>
+			<div class="light_navbar_links_container anim_page_transition">
+				<ul class="light_navbar_links">
+					<li><a href="#" class="light_navbar_link_twitter" target="_blank"></a></li>
+					<li><a href="#" class="light_navbar_link_linkedin" target="_blank"></a></li>
+					<li><a href="#" class="light_navbar_link_facebook" target="_blank"></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="scroll_indicator">
+		</div>
+	
+		<div class="main">
+				
+			<section class="page_01">
+				<div class="page_01_layer">
+					<div id="page_01_container">
+						<p class="page_01_title">Hello,</p>  
+						<p class="page_01_text">My name is Manish Kogundi. I try to design usable, beautiful and sophisticated stuff on the web & on mobile. I play some guitar too.</p>
+					</div>
+					<a href="mailto:karan.manu17@gmail.com" class="navbar_contact_2">Contact</a>
+					<div id="page_01_links_container">
+						<ul class="page_01_links">
+							<li><a href="#" id="page_01_link_twitter" target="_blank"></a></li>
+							<li><a href="#" id="page_01_link_linkedin" target="_blank"></a></li>
+							<li><a href="#" id="page_01_link_facebook" target="_blank"></a></li>
+						</ul>
+					</div>
+					<div id="page_01_links_container_false">
+						<ul class="page_01_links_false">
+							<li><div id="page_01_link_twitter_false"></div></li>
+							<li><div id="page_01_link_linkedin_false"></div></li>
+							<li><div id="page_01_link_facebook_false"></div></li>
+						</ul>
+					</div>
+					<ul>
+					<li>
+				</div>
+			</section>	
+			
+			<section class="page_02">
+				<p class="page_02_title">About Me</p>
+				<div class="page_02_container">
+					<p class="page_02_text">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+					<br/>
+					<p class="page_02_text">For me, Design is about creating the layer that covers up the complex technicality of a product, it's here for the users, only them. It's essential to make them feel safe and eager to use a website or an app. It's not simply about making things more beautiful, it's about making things look like the way they were meant to be, so obvious it is natural.</p>
+				</div>
+				<div class="page_02_pic_container">
+					<div class="page_02_pic"></div>
+					<div class="page_02_pic_border"></div>
+					<div class="page_02_pic_line"></div>
+				</div>
+				<div class="page_02_paris"></div>
+			</section>
+			
+			<section class="page_06">
+				<div class="page_06_container">
+					<p class="page_06_title_1">Front-End Skills.</p>
+					<div class="page_06_sep_1"></div>
+					<div class="page_06_languages">
+						<div alt="HTML 5" class="page_06_html"></div>
+						<div alt="CSS 3" class="page_06_css"></div>
+						<div alt="Javascript" class="page_06_js"></div>
+					</div>
+					
+					
+				</div>
+			</section>
+	
+		</div>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/jquery.glide.js"></script>
+		<script type="text/javascript">
+		    $(".main").onepage_scroll({
+		      sectionContainer: "section",
+			  easing: "ease-out",
+			  animationTime: 800,
+			  pagination: true,
+			  updateURL: false
+		    });
+	  	</script>
+	  	<script type="text/javascript">
+			var glide = $('.slider').glide().data('api_glide');
+			 
+			$(window).on('keyup', function (key) {
+			if (key.keyCode === 13) {
+			glide.jump(3, console.log('Wooo!'));
+			};
+			});
+		</script>
+	</body>
+</html>
